@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane prefHeight="780.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="display.Display2Controller">
+   <children>
+      <Pane prefHeight="780.0" prefWidth="916.0">
+         <children>
+            <ImageView fx:id="mainImg" fitHeight="450.0" fitWidth="425.0" layoutX="47.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/jxw_chen.png" />
+               </image></ImageView>
+            <ImageView fx:id="face" fitHeight="150.0" fitWidth="150.0" layoutY="522.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/jxw_chen_z.png" />
+               </image></ImageView>
+            <ImageView fx:id="back" fitHeight="150.0" fitWidth="150.0" layoutX="150.0" layoutY="522.0"  pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/jxw_chen_f.png" />
+               </image></ImageView>
+            <ImageView fx:id="left" fitHeight="150.0" fitWidth="150.0" layoutX="300.0" layoutY="522.0"  pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/jxw_chen_c.png" />
+               </image></ImageView>
+            <Button fx:id="chenchen" layoutX="35.0" layoutY="705.0" mnemonicParsing="false" onAction="#lastCK" opacity="0.57" style="-fx-background-color: #36eeaa;" text="琮琮" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#55c64a" />
+                        <Stop color="#6162bc" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button fx:id="lianlian" layoutX="132.0" layoutY="705.0" mnemonicParsing="false" onAction="#nextCK" opacity="0.57" style="-fx-background-color: #36eeaa;" text="莲莲" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#55c64a" />
+                        <Stop color="#6162bc" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button fx:id="ret" layoutX="237.0" layoutY="705.0" mnemonicParsing="false" onAction="#retCK" opacity="0.57" style="-fx-background-color: #36eeaa;" text="返回" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#55c64a" />
+                        <Stop color="#6162bc" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button fx:id="exit" layoutX="335.0" layoutY="705.0" mnemonicParsing="false" onAction="#exitCK" opacity="0.57" style="-fx-background-color: #36eeaa;" text="退出" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#55c64a" />
+                        <Stop color="#6162bc" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Text fill="#4a90d7" layoutX="460.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="       “宸宸”以机器人的造型代表世">
+               <font>
+                  <Font size="32.0" />
+               </font></Text>
+            <Text fill="#4a90d7" layoutX="460.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="运河杭州段的标志性建筑拱宸桥。有">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#4a90d7" layoutX="460.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="着400多年历史的拱宸桥承载着一代">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#4a90d7" layoutX="460.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="又一代人的美好记忆。 ">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#4a90d7" layoutX="460.0" layoutY="304.0" strokeType="OUTSIDE" strokeWidth="0.0" text="　“宸宸”从大运河走来，游向钱塘">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#4a90d7" layoutX="460.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="江，游向世界。全身以科技蓝为主色">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#4a90d7" layoutX="460.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="调，头顶举世罕见的钱江潮，额头嵌">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#4a90d7" layoutX="460.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="以拱宸桥的图案，给人以无穷的想象。">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#4a90d7" layoutX="460.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="界遗产京杭大运河，名字源于京杭大">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#4a90d7" layoutX="460.0" layoutY="472.0" strokeType="OUTSIDE" strokeWidth="0.0" text="　　“宸宸”机智勇敢、聪慧灵动、">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#4a90d7" layoutX="460.0" layoutY="514.0" strokeType="OUTSIDE" strokeWidth="0.0" text="乐观向上、积极进取，展现了海纳百">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#4a90d7" layoutX="460.0" layoutY="556.0" strokeType="OUTSIDE" strokeWidth="0.0" text="川的时代精神，架起了亚洲和世界人">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#4a90d7" layoutX="460.0" layoutY="598.0" strokeType="OUTSIDE" strokeWidth="0.0" text="民的心灵之桥。  ">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</StackPane>

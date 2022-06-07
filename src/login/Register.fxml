@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.RegisterController">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <ImageView fitHeight="600.0" fitWidth="800.0">
+               <image>
+                  <Image url="@../../img/register.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="name" alignment="CENTER" layoutX="167.0" layoutY="79.0" style="-fx-background-color: transparent;">
+               <font>
+                  <Font size="19.0" />
+               </font></TextField>
+            <TextField fx:id="id" alignment="CENTER" layoutX="167.0" layoutY="153.0" style="-fx-background-color: transparent;">
+               <font>
+                  <Font size="19.0" />
+               </font></TextField>
+            <TextField fx:id="sex" alignment="CENTER" layoutX="167.0" layoutY="225.0" style="-fx-background-color: transparent;">
+               <font>
+                  <Font size="19.0" />
+               </font></TextField>
+            <TextField fx:id="school" alignment="CENTER" layoutX="167.0" layoutY="300.0" style="-fx-background-color: transparent;">
+               <font>
+                  <Font size="19.0" />
+               </font></TextField>
+            <TextField fx:id="password" alignment="CENTER" layoutX="167.0" layoutY="371.0" style="-fx-background-color: transparent;">
+               <font>
+                  <Font size="19.0" />
+               </font></TextField>
+            <Button fx:id="register" layoutX="75.0" layoutY="480.0" mnemonicParsing="false" onAction="#regCK" opacity="0.0" prefHeight="45.0" prefWidth="128.0" text="注册" />
+            <Button fx:id="back" layoutX="264.0" layoutY="480.0" mnemonicParsing="false" onAction="#backCK" opacity="0.0" prefHeight="45.0" prefWidth="128.0" text="返回" />
+         </children>
+      </Pane>
+   </children>
+</StackPane>

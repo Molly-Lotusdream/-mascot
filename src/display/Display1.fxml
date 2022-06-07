@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane prefHeight="780.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="display.Display1Controller">
+   <children>
+      <Pane prefHeight="780.0" prefWidth="916.0">
+         <children>
+            <ImageView fx:id="mainImg" fitHeight="450.0" fitWidth="425.0" layoutX="17.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/jxw_cong.png" />
+               </image></ImageView>
+            <ImageView fx:id="face" fitHeight="150.0" fitWidth="150.0" layoutY="522.0"  pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/jxw_cong_z.png" />
+               </image></ImageView>
+            <ImageView fx:id="back" fitHeight="150.0" fitWidth="150.0" layoutX="150.0" layoutY="522.0"  pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/jxw_cong_f.png" />
+               </image></ImageView>
+            <ImageView fx:id="left" fitHeight="150.0" fitWidth="150.0" layoutX="300.0" layoutY="522.0"  pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/jxw_cong_c.png" />
+               </image></ImageView>
+            <Button fx:id="chenchen" layoutX="35.0" layoutY="705.0" mnemonicParsing="false" onAction="#lastCK" opacity="0.57" style="-fx-background-color: #36eeaa;" text="宸宸" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#55c64a" />
+                        <Stop color="#6162bc" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button fx:id="lianlian" layoutX="132.0" layoutY="705.0" mnemonicParsing="false" onAction="#nextCK" opacity="0.57" style="-fx-background-color: #36eeaa;" text="莲莲" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#55c64a" />
+                        <Stop color="#6162bc" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button fx:id="ret" layoutX="237.0" layoutY="705.0" mnemonicParsing="false" onAction="#retCK" opacity="0.57" style="-fx-background-color: #36eeaa;" text="返回" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#55c64a" />
+                        <Stop color="#6162bc" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button fx:id="exit" layoutX="335.0" layoutY="705.0" mnemonicParsing="false" onAction="#exitCK" opacity="0.57" style="-fx-background-color: #36eeaa;" text="退出" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#55c64a" />
+                        <Stop color="#6162bc" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Text fill="#757040" layoutX="460.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="       “琮琮”以机器人的造型代表世界">
+               <font>
+                  <Font size="32.0" />
+               </font></Text>
+            <Text fill="#757040" layoutX="460.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="城遗址出土的代表性文物玉琮。具有">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#757040" layoutX="460.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="精美绝伦纹饰的玉琮是良渚文化的重">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#757040" layoutX="460.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="要标志物，散发着永恒的魅力。">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#757040" layoutX="460.0" layoutY="304.0" strokeType="OUTSIDE" strokeWidth="0.0" text="　　“琮琮”实证了中华五千多年文明">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#757040" layoutX="460.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="史，全身以源自大地、象征丰收的黄">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#757040" layoutX="460.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="色为主色调，头部装饰的纹样取自良">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#757040" layoutX="460.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="渚文化的标志性符号“神人兽面纹”，">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#757040" layoutX="460.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="遗产良渚古城遗址，名字源于良渚古">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#757040" layoutX="460.0" layoutY="472.0" strokeType="OUTSIDE" strokeWidth="0.0" text="意寓“不畏艰险、超越自我”。">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#757040" layoutX="460.0" layoutY="514.0" strokeType="OUTSIDE" strokeWidth="0.0" text="　　“琮琮”坚强刚毅、敦厚善良、体">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#757040" layoutX="460.0" layoutY="556.0" strokeType="OUTSIDE" strokeWidth="0.0" text="魄强健、热情奔放，展现了不屈不挠">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#757040" layoutX="460.0" layoutY="598.0" strokeType="OUTSIDE" strokeWidth="0.0" text="的创业精神，鼓舞人们激发生命活力">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#757040" layoutX="460.0" layoutY="640.0" strokeType="OUTSIDE" strokeWidth="0.0" text="，创造美好生活。">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</StackPane>

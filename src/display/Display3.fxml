@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane prefHeight="780.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="display.Display3Controller">
+   <children>
+      <Pane prefHeight="780.0" prefWidth="916.0">
+         <children>
+            <ImageView fx:id="mainImg" fitHeight="450.0" fitWidth="425.0" layoutX="17.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/jxw_lian.png" />
+               </image></ImageView>
+            <ImageView fx:id="face" fitHeight="150.0" fitWidth="150.0" layoutY="522.0"  pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/jxw_lian_z.png" />
+               </image></ImageView>
+            <ImageView fx:id="back" fitHeight="150.0" fitWidth="150.0" layoutX="150.0" layoutY="522.0"  pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/jxw_lian_f.png" />
+               </image></ImageView>
+            <ImageView fx:id="left" fitHeight="150.0" fitWidth="150.0" layoutX="300.0" layoutY="522.0"  pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/jxw_lian_c.png" />
+               </image></ImageView>
+            <Button fx:id="chenchen" layoutX="35.0" layoutY="705.0" mnemonicParsing="false" onAction="#lastCK" opacity="0.57" style="-fx-background-color: #36eeaa;" text="宸宸" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#55c64a" />
+                        <Stop color="#6162bc" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button fx:id="lianlian" layoutX="132.0" layoutY="705.0" mnemonicParsing="false" onAction="#nextCK" opacity="0.57" style="-fx-background-color: #36eeaa;" text="琮琮" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#55c64a" />
+                        <Stop color="#6162bc" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button fx:id="ret" layoutX="237.0" layoutY="705.0" mnemonicParsing="false" onAction="#retCK" opacity="0.57" style="-fx-background-color: #36eeaa;" text="返回" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#55c64a" />
+                        <Stop color="#6162bc" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button fx:id="exit" layoutX="335.0" layoutY="705.0" mnemonicParsing="false" onAction="#exitCK" opacity="0.57" style="-fx-background-color: #36eeaa;" text="退出" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#55c64a" />
+                        <Stop color="#6162bc" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Text fill="#13dda4" layoutX="428.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="    “莲莲”以机器人的造型代表世界遗">
+               <font>
+                  <Font size="32.0" />
+               </font></Text>
+            <Text fill="#13dda4" layoutX="428.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="天莲叶。莲叶以其纯洁、高贵、祥和的">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#13dda4" layoutX="428.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="姿容为人们所喜爱。">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#13dda4" layoutX="428.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="      “莲莲” 从西湖的烟柳画桥、十里">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#13dda4" layoutX="428.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="荷花深处走来，身姿轻、体态优美，全">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#13dda4" layoutX="428.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="身覆盖清新自然的绿色。莲叶头饰以三">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#13dda4" layoutX="428.0" layoutY="406.0" strokeType="OUTSIDE" strokeWidth="0.0" text="潭印月为顶，以互联网为径，特色鲜明。 ">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#13dda4" layoutX="428.0" layoutY="448.0" strokeType="OUTSIDE" strokeWidth="0.0" text="　“莲莲”纯洁善良、活泼可爱、热情">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#13dda4" layoutX="428.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="产西湖，名字源于西湖中无穷碧色的接">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#13dda4" layoutX="428.0" layoutY="490.0" strokeType="OUTSIDE" strokeWidth="0.0" text="好客、美丽动人。展现了精致和谐、大">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#13dda4" layoutX="428.0" layoutY="532.0" strokeType="OUTSIDE" strokeWidth="0.0" text="气开放的人文精神，传递着共建人类命">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="#13dda4" layoutX="428.0" layoutY="574.0" strokeType="OUTSIDE" strokeWidth="0.0" text="运共同体的期许。 ">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</StackPane>
